@@ -48,3 +48,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="merlin-user 11 RP1A.200720.0
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.0.1.0.RJOMIXM:user/release-keys
+
+# Gapps
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_USES_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
