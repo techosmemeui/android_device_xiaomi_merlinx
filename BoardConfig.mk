@@ -32,3 +32,6 @@ ODM_MANIFEST_SKUS += \
     merlinnfc
 
 ODM_MANIFEST_MERLINNFC_FILES := $(DEVICE_PATH)/manifest_merlinnfc.xml
+
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
