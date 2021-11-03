@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/spark_merlinx.mk
+   $(LOCAL_DIR)/aosp_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_merlinx-user \
-    spark_merlinx-userdebug \
-    spark_merlinx-eng
+    aosp_merlinx-user \
+    aosp_merlinx-userdebug \
+    aosp_merlinx-eng
