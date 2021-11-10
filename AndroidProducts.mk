@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/nitrogen_merlinx.mk
+   $(LOCAL_DIR)/lineage_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    nitrogen_merlinx-user \
-    nitrogen_merlinx-userdebug \
-    nitrogen_merlinx-eng
+    lineage_merlinx-user \
+    lineage_merlinx-userdebug \
+    lineage_merlinx-eng
