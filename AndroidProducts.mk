@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/RevengeOS_merlinx.mk
+   $(LOCAL_DIR)/revengeos_merlinx.mk
 
 COMMON_LUNCH_CHOICES := \
-    RevengeOS_merlinx-user \
-    RevengeOS_merlinx-userdebug \
-    RevengeOS_merlinx-eng
+    revengeos_merlinx-user \
+    revengeos_merlinx-userdebug \
+    revengeos_merlinx-eng
